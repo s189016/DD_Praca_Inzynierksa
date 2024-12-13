@@ -42,6 +42,4 @@ Klasa `AStar` implementuje algorytm A* w przestrzeni 3D. Analogiczne parametry `
 
 Wizualizacja wyników realizowana jest za pomocą biblioteki `matplotlib`. Dodatkowo, w pliku `scena_test.PLY` wprowadza się dane dotyczące przeszkód w przestrzeni trójwymiarowej, które są następnie wyświetlane na wykresie.
 
-### Testowanie i optymalizacja
 
-Testowanie każdego z algorytmów odbywa się na różnych zestawach danych, które reprezentują różne trudności w poruszaniu się po labiryncie 3D. Na podstawie wyników analizy czasu wykonywania oraz jakości znalezionych trajektorii, możliwe jest dobranie odpowiednich algorytmów do różnych zastosowań. Optymalizacja kodu może obejmować poprawę metod generowania sąsiadów w przestrzeni, optymalizację algorytmu A* oraz przyspieszenie procesu budowy grafu w PRM.
